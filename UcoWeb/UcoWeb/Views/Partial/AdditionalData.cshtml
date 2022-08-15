@@ -1,0 +1,30 @@
+﻿@for (int i = 0; i < Model.Count; i++) 
+{
+    <tr scope="row">
+        <td>
+            @Model[i].ID
+        </td>
+        <td>
+            @Model[i].Title
+        </td>
+        <td>
+            @Model[i].Data1
+        </td>
+        <td>
+            @Model[i].Data2
+        </td>
+        <td>
+            @Model[i].Data3
+        </td>
+        <td>
+            @Model[i].Data4
+
+        </td>
+        <td>
+            @Model[i].OtherTypeValue.ID
+        </td>
+        <td>
+            @Model[i].OtherTypeValue.Title
+        </td>
+    </tr>
+}
